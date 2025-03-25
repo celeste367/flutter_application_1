@@ -46,7 +46,7 @@ class HomePage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    width: 300,
+                    width: 280,
                     height: 45,
                     decoration: BoxDecoration(
                       border: Border.all(
@@ -63,11 +63,11 @@ class HomePage extends StatelessWidget {
                           Center(
                             child: Image.network(
                               'https://i.imgur.com/tNtaER7.png',
-                              height: 15,
-                              width: 15,
+                              height: 20,
+                              width: 20,
                             ),
                           ),
-                          SizedBox(width: 8),
+                          SizedBox(width: 9),
                           Center(
                             child: Text(
                               'SIGN IN APPLE',
@@ -85,12 +85,12 @@ class HomePage extends StatelessWidget {
                 ],
               ),
 
-              SizedBox(height: 15),
+              SizedBox(height: 20),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    width: 300,
+                    width: 380,
                     height: 45,
                     decoration: BoxDecoration(
                       border: Border.all(
@@ -128,7 +128,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ],
               ),
-              SizedBox(height: 15),
+              SizedBox(height: 20),
             ],
           ),
         ),
